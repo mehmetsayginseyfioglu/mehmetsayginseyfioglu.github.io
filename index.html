@@ -116,26 +116,69 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-          <tr>
+
+<tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/quilt1m.png" alt="clean-usnob" width="220" height="160">
+              <img src="images/quilt_llama_figure.png" alt="clean-usnob" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
-              <a href="https://arxiv.org/abs/2306.11207">
-                <papertitle>Quilt-1M: One Million Image-Text Pairs for Histopathology.</papertitle>
+              <a href="https://arxiv.org/abs/2312.04746">
+                <papertitle>Quilt-LLaVA: Visual Instruction Tuning by Extracting Localized Narratives from Open-Source Histopathology Videos.</papertitle>
               </a>
               <br>
               <strong>Mehmet Saygin Seyfioglu*</strong>, 
-                 Wisdom O. Ikezogwo* ,Fatemeh Ghezloo*, Dylan Geva, Fatwir S. Mohammed, Pavan K. Anand, Ranjay Krishna and Linda Shapiro</a>
+                 Wisdom O. Ikezogwo*, Fatemeh Ghezloo*, Ranjay Krishna and Linda Shapiro</a>
               <br>
-              <em>Neurips ORAL</em> June 2023.
-                <p><strong>Summary:</strong>We introduce Quilt-1M, largest to date vision-language dataset created to aid representation learning in histopathology, utilizing various resources including YouTube. The dataset, assembled using a blend of handcrafted models and tools like large language models and automatic speech recognition, expands upon existing datasets by integrating additional data from sources like Twitter and research papers. A pre-trained CLIP model fine-tuned with Quilt-1M significantly outperforms state-of-the-art models for classifying histopathology images across 13 benchmarks spanning 8 sub-pathologies.</p>
-            <div>
-    <strong><a href="https://github.com/wisdomikezogwo/quilt1m" target="_blank">Code</a></strong>
+              <em>PrePrint</em> November 2023.
+                        
+<div>
+    <strong>
+        <a href="https://github.com/aldraus/quilt-llava" target="_blank" onclick="event.preventDefault()">[Code Coming Soon]</a>
+    </strong>
+    &nbsp; <!-- This is a non-breaking space as a separator -->
+    <strong>
+        <a href="https://quilt-llava.github.io/" target="_blank">[Website]</a>
+    </strong>
 </div>
+
+
+
+                <p><strong>Summary:</strong> We introduce Quilt-Instruct, a dataset with over 107,000 histopathology-specific instructional question/answer pairs, which we compiled from educational histopathology videos on YouTube, capturing narrators' cursor movements for spatial localization of captions. We distill key facts and diagnoses from the broader video content, leveraging these in GPT-4 prompts for contextually anchored, extrapolative reasoning, which helps minimize hallucinations when generating instruction tuning dataset. Quilt-Instruct led to the development of Quilt-LLaVA, a multi modal chatbot that excels in diagnostic reasoning and spatial awareness by reasoning beyond single image patches. Quilt-LLaVA shows a significant improvement over SOTA by over 10% on relative GPT-4 score and 4% and 9% on open and closed set VQA tasks.</p>
+
 
             </td>
           </tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <img src="images/quilt1m.png" alt="clean-usnob" width="220" height="160">
+  </td>
+  <td width="75%" valign="middle">
+    <a href="https://arxiv.org/abs/2306.11207">
+      <papertitle>Quilt-1M: One Million Image-Text Pairs for Histopathology.</papertitle>
+    </a>
+    <br>
+    <strong>Mehmet Saygin Seyfioglu*</strong>, 
+       Wisdom O. Ikezogwo* ,Fatemeh Ghezloo*, Dylan Geva, Fatwir S. Mohammed, Pavan K. Anand, Ranjay Krishna and Linda Shapiro
+    <br>
+    <em>Neurips ORAL</em> June 2023.
+    <div>
+    <strong>
+        <a href="https://github.com/wisdomikezogwo/quilt1m" target="_blank">[Code]</a>
+    </strong>
+    &nbsp; <!-- This is a non-breaking space as a separator -->
+    <strong>
+        <a href="https://quilt1m.github.io/" target="_blank">[Website]</a>
+    </strong>
+</div>
+    <p>
+      <strong>Summary:</strong>
+      We introduce Quilt-1M, the largest to date vision-language dataset created to aid representation learning in histopathology, utilizing various resources including YouTube. The dataset, assembled using a blend of handcrafted models and tools like large language models and automatic speech recognition, expands upon existing datasets by integrating additional data from sources like Twitter and research papers. A pre-trained CLIP model fine-tuned with Quilt-1M significantly outperforms state-of-the-art models for classifying histopathology images across 13 benchmarks spanning 8 sub-pathologies.
+    </p>
+  </td>
+</tr>
+
+
 
 
           <tr>
@@ -153,7 +196,7 @@
                 <p><strong>Summary:</strong>DreamPaint is a framework for inpainting of e-commerce products onto user-provided context images, using only 2D images from product catalogs and user context. It utilizes few-shot fine-tuning of pre-trained diffusion models, allowing for accurate placement of products in images, preserving both product and context characteristics. DreamPaint outperforms state of the art inpainting modules in both subjective human studies and quantitative metrics, showcasing its potential for virtual try-ons in e-commerce.</p>
 
             </td>
-          </tr>	
+          </tr> 
 
 
           <tr>
@@ -168,10 +211,11 @@
               <strong>Mehmet Saygin Seyfioglu*</strong>, W.O. Ikezogwo*, and Linda Shapiro</a>
               <br>
               <em>Extended abstract: Machine Learning for Health (ML4H), </em> Dec 2022.
-              <p><strong>Summary:</strong>We propose the use of of Multi-modal Masked Autoencoders (MMAE) in histopathology for self-supervised learning (SSL) on whole slide images. MMAE, utilizing specific compositionality of Hematoxylin & Eosin stained WSIs, shows superior performance over other state-of-the-art SSL techniques and supervised baselines in an eight-class tissue phenotyping task.</p>
-             <div>
-    <strong><a href="https://github.com/wisdomikezogwo/MMAE_Pathology" target="_blank">Code</a></strong>
+                           <div>
+    <strong><a href="https://github.com/wisdomikezogwo/MMAE_Pathology" target="_blank">[Code]</a></strong>
 </div>
+              <p><strong>Summary:</strong>We propose the use of of Multi-modal Masked Autoencoders (MMAE) in histopathology for self-supervised learning (SSL) on whole slide images. MMAE, utilizing specific compositionality of Hematoxylin & Eosin stained WSIs, shows superior performance over other state-of-the-art SSL techniques and supervised baselines in an eight-class tissue phenotyping task.</p>
+
             </td>
           </tr>
 
@@ -189,11 +233,12 @@
 L. Shapiro.</a>
               <br>
               <em>International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland,</em> March 2022.
-             <p><strong>Summary:</strong>We introduce a novel framework for Alzheimer's disease detection using brain MRIs. We utilize a data augmentation method called Brain-Aware Replacements (BAR) to generate synthetic samples. Then we trained a soft-label-capable supervised contrastive loss which aims to learn the relative similarity of representations. Through fine-tuning, the model pre-trained with this framework exhibits superior performance in the Alzheimer's disease detection task, outperforming other training approaches.</p>
-
-            <div>
+                          <div>
     <strong><a href="https://drive.google.com/file/d/1rq7X-CMKfhevvApn5WxcYynOkBcpndSs/view" target="_blank">Talk</a></strong>
 </div>
+             <p><strong>Summary:</strong>We introduce a novel framework for Alzheimer's disease detection using brain MRIs. We utilize a data augmentation method called Brain-Aware Replacements (BAR) to generate synthetic samples. Then we trained a soft-label-capable supervised contrastive loss which aims to learn the relative similarity of representations. Through fine-tuning, the model pre-trained with this framework exhibits superior performance in the Alzheimer's disease detection task, outperforming other training approaches.</p>
+
+
             </td>
           </tr>
 
