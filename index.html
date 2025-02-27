@@ -84,7 +84,7 @@
 I recently completed my PhD at the <a href='https://grail.cs.washington.edu/people/'>Graphics and Imaging Laboratory</a> at the <a href='https://www.cs.washington.edu/'>University of Washington, Seattle</a>, where I worked with <a href='https://scholar.google.com/citations?user=nBwaXUsAAAAJ&hl=en'>Prof. Linda Shapiro</a> and <a href='https://scholar.google.com.tr/citations?user=IcqahyAAAAAJ&hl=en'>Prof. Ranjay Krishna</a>. My research, situated at the intersection of vision and language, spans areas such as visual instruction tuning, self-supervised learning, and diffusion models. My work was supported by the <a href='https://us.fulbrightonline.org/'>Fulbright Fellowship</a> (2019-2021), the <a href='https://gibhs.psychiatry.uw.edu/'>Garvey Institute</a> (2021-2022) and <a href='https://www.microsoft.com/en-us/research/project/afmr-cognition-and-societal-benefits/'>Microsoft</a> (2023-2024).
 </p>
 <p>
-I am currently an Applied Scientist at Amazon, working on diffusion models for virtual try-on applications. Previously, I completed a research internship at Google and several internships at Amazon during the summers of 2020-2023, where I worked on a range of projects, from self-supervised learning to diffusion models. Prior to my PhD, I worked at a <a href='https://www.stm.com.tr/en'>tech company</a> in Turkey for two years as a machine learning researcher on various projects on vision and language.
+I am currently an Applied Scientist at Amazon, working on diffusion models for virtual try-on applications. Previously, I completed a research internships at Google and Amazon during the summers of 2020-2024, where I worked on a range of projects, from self-supervised learning to diffusion models. Prior to my PhD, I worked at a <a href='https://www.stm.com.tr/en'>tech company</a> in Turkey for two years as a machine learning researcher on various projects on vision and language.
 </p>
 <p>
 
@@ -115,13 +115,53 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-
-
-
-
-
-
 <tr>
+    <td style="padding:20px;width:25%;vertical-align:middle">
+      <img src="images/pathfinder.png" alt="pathfinder" width="220" height="160">
+    </td>
+    <td width="75%" valign="middle">
+      <a href="https://arxiv.org/pdf/2502.08916#">
+        <papertitle>PathFinder: A Multi-Modal Multi-Agent System for Medical Diagnostic Decision-Making Applied to Histopathology</papertitle>
+      </a>
+      <br>
+      <strong>Mehmet Saygin Seyfioglu*, Fatemeh Ghezloo*, Rustin Soraki*, Wisdom O. Ikezogwo*, Beibin Li*, Tejoram Vivekanandan, Joann G. Elmore, Ranjay Krishna, Linda Shapiro</strong>
+      <br>
+      <em>PrePrint</em> 2025
+      <div>
+        <strong><a href="#" target="_blank" onclick="event.preventDefault()">[Code Coming Soon]</a></strong>
+        &nbsp;
+        <strong><a href="https://pathfinder-dx.github.io/#" target="_blank">[Website]</a></strong>
+      </div>
+      <p><strong>Summary:</strong> Diagnosing diseases through histopathology whole slide images (WSIs) is fundamental in modern pathology but is challenged by the gigapixel scale and complexity of WSIs. PathFinder is a multi-modal, multi-agent framework that emulates the decision-making process of expert pathologists by integrating four AI agents: Triage, Navigation, Description, and Diagnosis. The Triage Agent distinguishes benign versus risky WSIs, then the Navigation and Description Agents collaboratively identify significant regions, provide importance maps, and generate natural language descriptions of relevant patches. Finally, the Diagnosis Agent synthesizes these findings into a comprehensive diagnosis. PathFinder outperforms state-of-the-art methods in skin melanoma diagnosis by 8% while offering inherent explainability, with pathologist evaluations finding that the descriptions it generates are on par with GPT-4. Remarkably, PathFinder is also the first AI system to surpass the average performance of pathologists on this task by 9%, setting a new standard for accurate and interpretable AI-assisted diagnostics in pathology.</p>
+    </td>
+  </tr>
+
+  <!-- MedicalNarratives -->
+  <tr>
+    <td style="padding:20px;width:25%;vertical-align:middle">
+      <img src="images/mednarratives.png" alt="mednarratives" width="220" height="160">
+    </td>
+    <td width="75%" valign="middle">
+      <a href="https://arxiv.org/pdf/2501.04184">
+        <papertitle>MedicalNarratives: Connecting Medical Vision and Language with Localized Narratives</papertitle>
+      </a>
+      <br>
+      <strong>Wisdom O. Ikezogwo*, Kevin Zhang*, Mehmet Saygin Seyfioglu, Fatemeh Ghezloo, Ranjay Krishna, Linda Shapiro</strong>
+      <br>
+      <em>PrePrint</em> 2025
+      <div>
+        <strong><a href="#" target="_blank" onclick="event.preventDefault()">[Code Coming Soon]</a></strong>
+        &nbsp;
+        <strong><a href="https://medical-narratives.github.io/#" target="_blank">[Website]</a></strong>
+      </div>
+      <p><strong>Summary:</strong> We propose MedicalNarratives, a dataset curated from medical pedagogical videos, inspired by Localized Narratives. It synchronizes instructors’ speech and mouse movements to create multimodal data for both semantic and dense objectives in medical AI tasks. MedicalNarratives contains 4.7M image-text pairs, with 1M having trace-level or bounding-box-level annotations. Trained with these data, our GenMedCLIP achieves state-of-the-art performance on medical imaging benchmarks spanning 12 domains, enabling integrated semantic and dense objectives without relying on separately trained models.</p>
+    </td>
+  </tr>
+
+
+
+
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/dtc_figure.png" alt="clean-usnob" width="160" height="160">
             </td>
@@ -131,7 +171,7 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
               </a>
               <br>
               <strong>Mehmet Saygin Seyfioglu</strong>, 
-                 K. Bouyarmane, S. Kumar, A. Tavanaei and I. Tutar</a>
+                 K. Bouyarmane, S. Kumar, A. Tavanaei and I. Tutar
               <br>
               <em>PrePrint</em> January 2024.
                         
@@ -139,25 +179,18 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
     <strong>
         <a href="https://github.com/aldraus/diffuse2choose" target="_blank" onclick="event.preventDefault()">[Code Coming Soon]</a>
     </strong>
-    &nbsp; <!-- This is a non-breaking space as a separator -->
+    &nbsp;
     <strong>
         <a href="https://diffuse2choose.github.io/" target="_blank">[Website]</a>
     </strong>
 </div>
 
-
-
                 <p><strong>Summary:</strong> In e-commerce, a common challenge faced during virtual try-ons with zero-shot, image-conditioned inpainting models is their inability to preserve the fine-grained details of products. While frameworks like DreamPaint offer better quality, they rely on few-shot fine-tuning for each individual product, which is too costly. In this work, we introduce Diffuse2Choose, which enables any e-commerce product to be virtually placed in any user setting by preserving the product's fine-grained details in a zero-shot setting. It works by stitching the reference product directly into the source image to approximate its pixel-level appearance. A secondary UNet encoder then processes this collage, generating pixel-level signals. These signals are then modulated to the main UNet decoder through affine transformations using a FILM layer, ensuring high fidelity in detail preservation. In comparative evaluations, Diffuse2Choose outperforms both few-shot personalization models like DreamPaint and zero-shot inpainting models like Paint by Example, demonstrating superior results in both public virtual try-on datasets and in-house virtual try-all datasets. </p>
-
-
             </td>
           </tr>
 
 
-
-
-
-<tr>
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/quilt_llama_figure.png" alt="clean-usnob" width="160" height="160">
             </td>
@@ -167,7 +200,7 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
               </a>
               <br>
               <strong>Mehmet Saygin Seyfioglu*</strong>, 
-                 W. O. Ikezogwo*, F. Ghezloo*, R. Krishna and L. Shapiro</a>
+                 W. O. Ikezogwo*, F. Ghezloo*, R. Krishna and L. Shapiro
               <br>
               <em>CVPR</em> 2024.
                         
@@ -175,7 +208,7 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
     <strong>
         <a href="https://github.com/aldraus/quilt-llava" target="_blank">[Code]</a>
     </strong>
-    &nbsp; <!-- This is a non-breaking space as a separator -->
+    &nbsp;
     <strong>
         <a href="https://quilt-llava.github.io/" target="_blank">[Website]</a>
     </strong>
@@ -184,41 +217,37 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
 
 
                 <p><strong>Summary:</strong> We introduce Quilt-Instruct, a dataset with over 107,000 histopathology-specific instructional question/answer pairs, which we compiled from educational histopathology videos on YouTube, capturing narrators' cursor movements for spatial localization of captions. We distill key facts and diagnoses from the broader video content, leveraging these in GPT-4 prompts for contextually anchored, extrapolative reasoning, which helps minimize hallucinations when generating instruction tuning dataset. Quilt-Instruct led to the development of Quilt-LLaVA, a multi modal chatbot that excels in diagnostic reasoning and spatial awareness by reasoning beyond single image patches. Quilt-LLaVA shows a significant improvement over SOTA by over 10% on relative GPT-4 score and 4% and 9% on open and closed set VQA tasks.</p>
-
-
             </td>
           </tr>
 
-<tr>
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <img src="images/quilt1m.png" alt="clean-usnob" width="220" height="160">
-  </td>
-  <td width="75%" valign="middle">
-    <a href="https://arxiv.org/abs/2306.11207">
-      <papertitle>Quilt-1M: One Million Image-Text Pairs for Histopathology.</papertitle>
-    </a>
-    <br>
-    <strong>Mehmet Saygin Seyfioglu*</strong>, 
-       W. O. Ikezogwo* ,F. Ghezloo*, D. Geva, F. S. Mohammed, P. K. Anand, R. Krishna and L. Shapiro
-    <br>
-    <em>Neurips ORAL</em> 2023.
-    <div>
-    <strong>
-        <a href="https://github.com/wisdomikezogwo/quilt1m" target="_blank">[Code]</a>
-    </strong>
-    &nbsp; <!-- This is a non-breaking space as a separator -->
-    <strong>
-        <a href="https://quilt1m.github.io/" target="_blank">[Website]</a>
-    </strong>
-</div>
-    <p>
-      <strong>Summary:</strong>
-      We introduce Quilt-1M, the largest to date vision-language dataset created to aid representation learning in histopathology, utilizing various resources including YouTube. The dataset, assembled using a blend of handcrafted models and tools like large language models and automatic speech recognition, expands upon existing datasets by integrating additional data from sources like Twitter and research papers. A pre-trained CLIP model fine-tuned with Quilt-1M significantly outperforms state-of-the-art models for classifying histopathology images across 13 benchmarks spanning 8 sub-pathologies.
-    </p>
-  </td>
-</tr>
-
-
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/quilt1m.png" alt="clean-usnob" width="220" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2306.11207">
+                <papertitle>Quilt-1M: One Million Image-Text Pairs for Histopathology.</papertitle>
+              </a>
+              <br>
+              <strong>Mehmet Saygin Seyfioglu*</strong>, 
+                 W. O. Ikezogwo*, F. Ghezloo*, D. Geva, F. S. Mohammed, P. K. Anand, R. Krishna and L. Shapiro
+              <br>
+              <em>NeurIPS ORAL</em> 2023.
+              <div>
+                <strong>
+                    <a href="https://github.com/wisdomikezogwo/quilt1m" target="_blank">[Code]</a>
+                </strong>
+                &nbsp;
+                <strong>
+                    <a href="https://quilt1m.github.io/" target="_blank">[Website]</a>
+                </strong>
+              </div>
+              <p>
+                <strong>Summary:</strong>
+                We introduce Quilt-1M, the largest to date vision-language dataset created to aid representation learning in histopathology, utilizing various resources including YouTube. The dataset, assembled using a blend of handcrafted models and tools like large language models and automatic speech recognition, expands upon existing datasets by integrating additional data from sources like Twitter and research papers. A pre-trained CLIP model fine-tuned with Quilt-1M significantly outperforms state-of-the-art models for classifying histopathology images across 13 benchmarks spanning 8 sub-pathologies.
+              </p>
+            </td>
+          </tr>
 
 
           <tr>
@@ -230,10 +259,10 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
                 <papertitle>DreamPaint: Few-Shot Inpainting of E-Commerce Items for Virtual Try-On without 3D Modeling.</papertitle>
               </a>
               <br>
-              <strong>Mehmet Saygin Seyfioglu</strong>, K. Bouyarmane, S. Kumar, A. Tavanaei and I. B. Tutar</a>
+              <strong>Mehmet Saygin Seyfioglu</strong>, K. Bouyarmane, S. Kumar, A. Tavanaei and I. B. Tutar
               <br>
               <em>PrePrint</em> May 2023.
-                <p><strong>Summary:</strong>DreamPaint is a framework for inpainting of e-commerce products onto user-provided context images, using only 2D images from product catalogs and user context. It utilizes few-shot fine-tuning of pre-trained diffusion models, allowing for accurate placement of products in images, preserving both product and context characteristics. DreamPaint outperforms state of the art inpainting modules in both subjective human studies and quantitative metrics, showcasing its potential for virtual try-ons in e-commerce.</p>
+                <p><strong>Summary:</strong> DreamPaint is a framework for inpainting of e-commerce products onto user-provided context images, using only 2D images from product catalogs and user context. It utilizes few-shot fine-tuning of pre-trained diffusion models, allowing for accurate placement of products in images, preserving both product and context characteristics. DreamPaint outperforms state of the art inpainting modules in both subjective human studies and quantitative metrics, showcasing its potential for virtual try-ons in e-commerce.</p>
 
             </td>
           </tr> 
@@ -248,14 +277,13 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
                 <papertitle>Multi-modal Masked Autoencoders Learn Compositional Histopathological Representations.</papertitle>
               </a>
               <br>
-              <strong>Mehmet Saygin Seyfioglu*</strong>, W.O. Ikezogwo*, and L. Shapiro</a>
+              <strong>Mehmet Saygin Seyfioglu*</strong>, W.O. Ikezogwo*, and L. Shapiro
               <br>
               <em>Extended abstract: Machine Learning for Health (ML4H), </em> Dec 2022.
-                           <div>
-    <strong><a href="https://github.com/wisdomikezogwo/MMAE_Pathology" target="_blank">[Code]</a></strong>
-</div>
-              <p><strong>Summary:</strong>We propose the use of of Multi-modal Masked Autoencoders (MMAE) in histopathology for self-supervised learning (SSL) on whole slide images. MMAE, utilizing specific compositionality of Hematoxylin & Eosin stained WSIs, shows superior performance over other state-of-the-art SSL techniques and supervised baselines in an eight-class tissue phenotyping task.</p>
-
+              <div>
+                <strong><a href="https://github.com/wisdomikezogwo/MMAE_Pathology" target="_blank">[Code]</a></strong>
+              </div>
+              <p><strong>Summary:</strong> We propose the use of Multi-modal Masked Autoencoders (MMAE) in histopathology for self-supervised learning (SSL) on whole slide images. MMAE, utilizing specific compositionality of Hematoxylin & Eosin stained WSIs, shows superior performance over other state-of-the-art SSL techniques and supervised baselines in an eight-class tissue phenotyping task.</p>
             </td>
           </tr>
 
@@ -270,22 +298,18 @@ I am currently an Applied Scientist at Amazon, working on diffusion models for v
               </a>
               <br>
               <strong>Mehmet Saygin Seyfioglu</strong>, Z. Liu, P. Kamath, S. Gangolli, S. Wang, T. Grabowski, and
-L. Shapiro.</a>
+              L. Shapiro
               <br>
-              <em>International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland,</em> March 2022.
-                          <div>
-    <strong><a href="https://drive.google.com/file/d/1rq7X-CMKfhevvApn5WxcYynOkBcpndSs/view" target="_blank">Talk</a></strong>
-</div>
-             <p><strong>Summary:</strong>We introduce a novel framework for Alzheimer's disease detection using brain MRIs. We utilize a data augmentation method called Brain-Aware Replacements (BAR) to generate synthetic samples. Then we trained a soft-label-capable supervised contrastive loss which aims to learn the relative similarity of representations. Through fine-tuning, the model pre-trained with this framework exhibits superior performance in the Alzheimer's disease detection task, outperforming other training approaches.</p>
-
-
+              <em>MICCAI (Medical Image Computing and Computer-Assisted Intervention)</em>, 2022.
+              <div>
+                <strong><a href="https://drive.google.com/file/d/1rq7X-CMKfhevvApn5WxcYynOkBcpndSs/view" target="_blank">Talk</a></strong>
+              </div>
+              <p><strong>Summary:</strong> We introduce a novel framework for Alzheimer's disease detection using brain MRIs. We utilize a data augmentation method called Brain-Aware Replacements (BAR) to generate synthetic samples. Then we trained a soft-label-capable supervised contrastive loss which aims to learn the relative similarity of representations. Through fine-tuning, the model pre-trained with this framework exhibits superior performance in the Alzheimer's disease detection task, outperforming other training approaches.</p>
             </td>
           </tr>
 
 
-
-
-         <tr>
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/mlim.png" alt="clean-usnob" width="220" height="160">
             </td>
@@ -294,18 +318,15 @@ L. Shapiro.</a>
                 <papertitle>MLIM: Vision-and-Language Model Pre-training with Masked Language and Image Modeling.</papertitle>
               </a>
               <br>
-              <strong>Mehmet Saygin Seyfioglu*</strong>, T. Arici*, T. Neiman, Y. Xu, S. Tran, T. Cilimbi, B. Zeng, and I. B. Tutar.</a>
+              <strong>Mehmet Saygin Seyfioglu*</strong>, T. Arici*, T. Neiman, Y. Xu, S. Tran, T. Cilimbi, B. Zeng, and I. B. Tutar
               <br>
               <em>Preprint</em> September 2021.
-             <p><strong>Summary:</strong>We introduce Masked Language and Image Modeling for enhancing Vision-and-Language Pre-training by merging Masked Language Modeling (MLM) and reconstruction (Recon) losses. We also propose Modality Aware Masking (MAM) which aims to boost cross-modality interaction and separately gauge text and image reconstruction quality. By coupling MLM + Recon tasks with MAM, we exhibit a simplified VLP methodology, demonstrating improved performance on downstream tasks within a proprietary e-commerce multi-modal dataset​.</p>
-             
-
+             <p><strong>Summary:</strong> We introduce Masked Language and Image Modeling for enhancing Vision-and-Language Pre-training by merging Masked Language Modeling (MLM) and reconstruction (Recon) losses. We also propose Modality Aware Masking (MAM) which aims to boost cross-modality interaction and separately gauge text and image reconstruction quality. By coupling MLM + Recon tasks with MAM, we exhibit a simplified VLP methodology, demonstrating improved performance on downstream tasks within a proprietary e-commerce multi-modal dataset​.</p>
             </td>
           </tr>
 
 
-
-            <tr>
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/leveraging.png" alt="clean-usnob" width="220" height="160">
             </td>
@@ -314,16 +335,20 @@ L. Shapiro.</a>
                 <papertitle>Leveraging Unlabeled Data for Glioma Molecular Subtype and Survival Prediction.</papertitle>
               </a>
               <br>
-              N. Nuechterlein, B. Li, <strong>Mehmet Saygin Seyfioglu</strong>, M. S. Seyfioğlu, S. Mehta, P. J. Cimino, and L. Shapiro.</a>
+              N. Nuechterlein, B. Li, <strong>Mehmet Saygin Seyfioglu</strong>, M. S. Seyfioğlu, S. Mehta, P. J. Cimino, and L. Shapiro
               <br>
               <em>ICPR</em> May 2020.
-             <p><strong>Summary:</strong>We address radio-genomic challenges in glioma subtype and survival prediction by utilizing multi-task learning (MTL) to leverage unlabeled MR data and combine it with genomic data. Our MTL model significantly surpasses comparable models trained only on labeled MR data for glioma subtype prediction tasks. We also demonstrate that our model's embeddings enhance survival predictions beyond using MR or somatic copy number alteration data alone. Our methodology showcases the potential of MTL in harnessing multimodal data for improved glioma characterization and survival prediction.</p>
-
-
+             <p><strong>Summary:</strong> We address radio-genomic challenges in glioma subtype and survival prediction by utilizing multi-task learning (MTL) to leverage unlabeled MR data and combine it with genomic data. Our MTL model significantly surpasses comparable models trained only on labeled MR data for glioma subtype prediction tasks. We also demonstrate that our model's embeddings enhance survival predictions beyond using MR or somatic copy number alteration data alone. Our methodology showcases the potential of MTL in harnessing multimodal data for improved glioma characterization and survival prediction.</p>
             </td>
           </tr>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+
+
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
             <p>
@@ -331,16 +356,7 @@ L. Shapiro.</a>
             </p>
         </td>
     </tr>
-
-
-    
-
         </tbody></table>
-
-
-
-    
-        
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
@@ -359,28 +375,8 @@ L. Shapiro.</a>
               <p></p><a href="https://courses.cs.washington.edu/courses/cse473/23wi/">{TA} CSE 473:  Introduction to Artificial Intelligence, Winter/Fall 2023.</a>
               <br>
             </td>
-
           </tr>
         </tbody></table>
-
-<!--         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Others</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/imbizo2020.png" alt="cs188" width="160" height="160">
-            </td>
-            <td width="75%" valign="center">
-              <p> <strong>Summer Schools</strong> : <a href="https://imbizo.africa/"> IBRO-SIMONS Computational neuroscience summer school | 2020 | CAPETOWN</a> </p>
-              <br>
-            </td>
-          </tr>
-        </tbody></table> -->
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -395,7 +391,6 @@ L. Shapiro.</a>
         </tbody></table>
       </td>
     </tr>
-  </table>
+  </tbody></table>
 </body>
-
 </html>
